@@ -11,7 +11,7 @@ const HeroSection: React.FC = () => {
               William Cobb
             </div>
             <p className='align-left hero-section-text'>
-              Hello! I'm William Cobb, a seasoned technologist and software 
+              Hello! My name is William Cobb. I am a seasoned technologist and software 
               engineer with over 30 years of experience across 
               various industries including Healthcare, Pharma, 
               Logistics, Finance, Retail, Education, and 

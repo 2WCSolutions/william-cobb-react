@@ -1,21 +1,41 @@
 import React from 'react';
 import logoImage from '../assets/images/logo.png';
+import { Link } from 'react-router-dom';
+import { Navbar, Nav, Container } from 'react-bootstrap';
 
 const Header: React.FC = () => {
   return (
-    <header className="bg-primary text-white text-center p-3">
-      <div className="container d-flex justify-content-between align-items-center">
-        <h1 className="mb-0">
-          <img src={logoImage} alt="WC Logo" className="logo-image" />
-          William W Cobb III</h1>
-        <div>
-          <a href="mailto:william@2wc.com" className="text-white mr-3">
-            <i className="fas fa-envelope"></i> william@2wc.com</a>
-          &nbsp;|&nbsp;
-          <a href="tel:+17035851065" className="text-white"><i className="fas fa-phone"></i> 703-585-1065</a>
-        </div>
-      </div>
-    </header>
+    <Navbar bg="primary" expand="lg" variant="dark" className="text-white text-center p-3">
+      <Container>
+        <Navbar.Brand as={Link} to="/" className="d-flex align-items-center">
+          <img src={logoImage} alt="WC Logo" className="logo-image mr-2" />
+          William W Cobb III
+        </Navbar.Brand>
+        <Navbar.Toggle aria-controls="basic-navbar-nav" />
+        <Navbar.Collapse id="basic-navbar-nav">
+          <Nav className="ml-auto">
+            <Nav.Link as={Link} to="/">Home</Nav.Link>
+            <Nav.Link as={Link} to="/about">About</Nav.Link>
+            <Nav.Link as={Link} to="/work">Work</Nav.Link>
+            <Nav.Link as={Link} to="/contact">Contact</Nav.Link>
+          </Nav>
+          <div className="ml-auto d-flex align-items-stretch">
+            <a href="https://www.facebook.com" target="_blank" rel="noopener noreferrer" className="text-white mr-3">
+              <i className="fab fa-facebook-f"></i>
+            </a>
+            <a href="https://www.instagram.com" target="_blank" rel="noopener noreferrer" className="text-white mr-3">
+              <i className="fab fa-instagram"></i>
+            </a>
+            <a href="https://www.linkedin.com" target="_blank" rel="noopener noreferrer" className="text-white mr-3">
+              <i className="fab fa-linkedin-in"></i>
+            </a>
+            <a href="https://www.twitter.com" target="_blank" rel="noopener noreferrer" className="text-white">
+              <i className="fab fa-twitter"></i>
+            </a>
+          </div>
+        </Navbar.Collapse>
+      </Container>
+    </Navbar>
   );
 };
 
