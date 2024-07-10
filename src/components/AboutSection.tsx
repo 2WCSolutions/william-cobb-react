@@ -4,7 +4,7 @@ const AboutSection: React.FC = () => {
   return (
     <section className="my-section">
       <div className="container">
-        <h2>About William W Cobb III</h2>
+        <h2>About Me</h2>
         <p>
           <b>Technologist | Software Engineer | Visionary Leader</b>
         </p>
