@@ -20,22 +20,6 @@ const WorkSection: React.FC = () => {
             <li><strong>Artificial Intelligence:</strong> Pioneering AI applications that transform traditional practices and drive future innovation.</li>
             </ul>
 
-            <h2>Notable Projects</h2>
-            <p><strong>1. Healthcare Data Management System</strong></p>
-            <p>Developed a comprehensive data management system for a leading healthcare provider, significantly improving patient data accuracy and accessibility, resulting in enhanced patient care and operational efficiency.</p>
-
-            <p><strong>2. Pharmaceutical Supply Chain Optimization</strong></p>
-            <p>Implemented an AI-driven supply chain optimization solution for a major pharmaceutical company, reducing lead times and inventory costs while increasing overall supply chain efficiency.</p>
-
-            <p><strong>3. Financial Analytics Platform</strong></p>
-            <p>Created an advanced financial analytics platform for a top-tier financial institution, enabling real-time data analysis and decision-making, leading to improved financial performance and risk management.</p>
-
-            <p><strong>4. Retail Customer Experience Enhancement</strong></p>
-            <p>Designed and deployed a cutting-edge customer experience platform for a national retail chain, integrating AI and machine learning to personalize customer interactions and boost sales.</p>
-
-            <p><strong>5. Educational Technology Integration</strong></p>
-            <p>Developed and integrated educational technology solutions for several academic institutions, enhancing learning outcomes and administrative efficiency through innovative software tools.</p>
-
             <h2>Professional Philosophy</h2>
             <p>I firmly believe that the role of a technologist is to constantly evolve, adapting to new challenges and leveraging emerging technologies to create impactful solutions. My approach is rooted in a forward-thinking mindset, ensuring that every project not only addresses current needs but also positions clients for future success. Embracing the transformative power of AI, I am committed to driving innovation and excellence in every endeavor.</p>
 
